@@ -1,0 +1,111 @@
+@import "base/_variables.css";
+@import "base/_mixins.css";
+@import "base/_global.css";
+@import "modules/_row.css";
+@import "modules/_footer.css";
+@import "modules/_btn.css";
+
+*{
+    font-family: 'Changa' , sans-serif;
+}
+.wrapper{
+    max-width: 98vw;
+    margin: 0 auto;
+}
+.header--img{
+    width: 100%;
+    max-height: 20vh;
+}
+.appointment--img{
+    position: relative;
+    top: 10%;
+    left: 5%;
+    width: 85%;
+}
+
+.info--text{
+    background: #008dc2;
+    text-align: center;
+    padding: 1.5rem;
+    color: white;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 2;
+}
+.background--blue{
+    background: #008dc2;
+}
+.color--blue{
+    color: #008dc2 ;
+}
+.list--text{
+    color: #008dc2 ;
+    text-align: right;
+    padding: 1.5rem;
+    font-weight: 600;
+    font-size: 19px;
+    cursor: pointer;
+
+}
+.square--icon{
+    font-size: 20px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.nav--btn{
+    background: #008dc2;
+    color: white;
+    padding: 5px 16px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: inline-block;
+    width: 98%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+}
+.login--btn, .white--btn{
+    background: white;
+    color: #008dc2;
+    border:1.5px solid #008dc2;
+    padding: 5px 16px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: inline-block;
+    width: 98%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+
+}
+.nav--btn:hover,.white--btn:hover, .active{
+    background: red;
+    text-decoration: none;
+    color: white;
+}
+
+.main--content{
+    background-image: url("../images/tu.jpeg");
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.main--services{
+    margin-top: 20vh ;
+}
+
+.search--box{
+    position: relative;
+    top:15%
+}
+.search--input {
+    border-top-left-radius: 15px !important;
+    border-bottom-left-radius: 15px !important;
+}
+.search--span{
+    border-top-right-radius: 15px !important;
+    border-bottom-right-radius: 15px !important;
+}
