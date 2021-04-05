@@ -12,18 +12,27 @@
     max-width: 98vw;
     margin: 0 auto;
 }
-.header--img{
+.header--img {
     width: 100%;
     max-height: 20vh;
 }
-.appointment--img{
+
+.appointment--img {
     position: relative;
-    top: 10%;
-    left: 5%;
-    width: 85%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    cursor: pointer;
+    border-radius: 20px;
 }
 
-.info--text{
+.doctor--img {
+    width: 100%;
+    height: 65vh;
+}
+
+.info--text {
     background: #008dc2;
     text-align: center;
     padding: 1.5rem;
@@ -62,20 +71,21 @@
     display: inline-block;
     width: 98%;
     text-align: center;
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 600;
 }
-.login--btn, .white--btn{
+
+.login--btn, .white--btn {
     background: white;
     color: #008dc2;
-    border:1.5px solid #008dc2;
+    border: 1.5px solid #008dc2;
     padding: 5px 16px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     display: inline-block;
     width: 98%;
     text-align: center;
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 600;
 
 }
@@ -85,7 +95,7 @@
     color: white;
 }
 
-.main--content{
+.main--content {
     background-image: url("../images/tu.jpeg");
 
     /* Center and scale the image nicely */
@@ -93,19 +103,27 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
-.main--services{
-    margin-top: 20vh ;
+
+.main--services {
+    margin-top: 175px;
 }
 
-.search--box{
+.search--box {
     position: relative;
-    top:15%
+    top: 10vh
 }
+
 .search--input {
     border-top-left-radius: 15px !important;
     border-bottom-left-radius: 15px !important;
 }
-.search--span{
+
+.search--span {
     border-top-right-radius: 15px !important;
     border-bottom-right-radius: 15px !important;
+    font-weight: 600 !important;
+}
+
+.pointer {
+    cursor: pointer;
 }
